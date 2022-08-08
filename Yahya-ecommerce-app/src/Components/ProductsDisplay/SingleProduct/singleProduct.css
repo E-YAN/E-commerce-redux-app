@@ -1,0 +1,70 @@
+.backButton,
+button,
+.backButtonLink {
+  padding: 0.5rem 1.2rem;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  width: 150px;
+  margin: 5PX;
+  background-color: rgb(63, 63, 63);
+  color: white;
+  text-decoration: none;
+}
+
+.backButtonLink:hover,
+button:hover {
+  color: #e94c3d
+}
+
+.oneProduct {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.pro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 80px;
+}
+
+.productImage {
+  height: 400px;
+  width: 400px;
+  /* object-fit: cover; */
+  padding-left: 20%;
+  padding-bottom: 30px;
+  margin-top: auto;
+  border-radius: 2rem;
+
+
+
+}
+
+.description {
+
+  padding-left: 50px;
+}
+
+.SingleProductCart {
+  /* padding: 20px; */
+
+
+  margin: auto;
+  margin-top: 2%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background: rgb(255, 255, 255);
+
+  margin: center;
+  height: 80%;
+  width: 80%;
+  border-radius: 2rem;
+  border: 5px solid grey;
+
+}
